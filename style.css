@@ -1,0 +1,71 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+.container {
+    text-align: center;
+    background-color: #f0f0f0;
+    box-shadow: 10px 10px 20px #d9d9d9, -10px -10px 20px #fff;
+    border-radius: 15px;
+    padding: 30px;
+    margin-top: 30px;
+    width: 400px;
+    height: 250px;
+}
+
+#copyButton {
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+#copyButton img {
+    width: 20px;
+    height: 20px;
+    filter: invert(50%);
+}
+h1 {
+    color: #333;
+    font-size: 23px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.password-container {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+input {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    border: 1px solid #d9d9d9;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+    box-shadow: inset 8px 8px 15px #cbcbcb, inset -8px -8px 15px #ffffff;
+}
+.btn {
+    width: 60%;
+    margin-top: 30px;
+    padding: 15px;
+    font-weight: 800;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: #f0f0f0;
+    color: #333;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px #d9d9d9, -10px -10px 20px #ffffff;
+    transition: background-color 0.3s, color 0.3s;
+}
+.btn:hover {
+    box-shadow: inset 8px 8px 15px #cbcbcb, inset -8px -8px 15px #ffffff;
+    color: #333;
+}
